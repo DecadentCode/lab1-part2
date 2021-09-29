@@ -1,0 +1,128 @@
+body,
+p {
+  margin: 0px;
+}
+body {
+  background-color: #f9fafc;
+  font-family: "Open Sans";
+  padding: 20px;
+}
+h1 {
+  font-size: 24px;
+  margin: 0px;
+}
+.a-homepage {
+  text-decoration: none;
+  color: #69696a;
+}
+.headerlogo {
+  text-decoration: none;
+  color: #000;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.navlist {
+  display: flex;
+  flex-direction: column;
+}
+.accentbox {
+  display: flex;
+  background-color: #000;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 12px;
+}
+h2 {
+  font-size: 32px;
+  margin: 0px;
+}
+.hometext {
+  border-left: solid;
+  border-color: #69696a;
+  padding-left: 16px;
+  margin-top: 24px;
+  color: #69696a;
+}
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(247, 193, 162, 0.7);
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footerlogo {
+  font-weight: bold;
+  margin: 0px;
+}
+.bottomlinks {
+  display: flex;
+  padding: 6px;
+}
+
+@media only screen and (min-width: 768px) {
+  .header-homepage {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navlist {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .a-homepage {
+    padding: 6px;
+  }
+  .homemain {
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0px;
+  }
+  .homesection {
+    flex: 1;
+    padding: 0px;
+  }
+  .container-dots {
+    flex: 1;
+    position: relative;
+  }
+  .largestdot {
+    position: absolute;
+    right: 80px;
+    height: 220px;
+    width: 220px;
+    background-color: rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .mediumdot {
+    position: absolute;
+    right: 0px;
+    top: 130px;
+    height: 175px;
+    width: 175px;
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    z-index: 3;
+  }
+  .smallestdot {
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    height: 140px;
+    width: 140px;
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 50%;
+    z-index: 2;
+  }
+}
